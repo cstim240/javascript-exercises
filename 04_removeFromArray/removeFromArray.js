@@ -14,13 +14,8 @@ const removeFromArray = function(array, ...target) {
 }
 
 /**
- * if (target.length > 1){
-        for (let i = 0; i < target.length; i++){
-            let targetIndex = array.indexOf(target[i]);
-            newArr = array.splice(targetIndex, targetIndex);
-            return newArr;
-        }
-    } 
+ * other solution
+ * return array.filter(element => !args.includes(element))
  */
 
 // Do not edit below this line
