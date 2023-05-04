@@ -8,9 +8,7 @@ const removeFromArray = function(array, ...target) {
             newArr.push(array[i]);
         }
     }
-
     return newArr;
-
 }
 
 /**
